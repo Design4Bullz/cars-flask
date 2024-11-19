@@ -38,7 +38,7 @@ This project demonstrates how to containerize a simple Flask web application tha
 ### Running the Application
 
 1. **Build and Start the Containers**:
-   - Use Docker Compose or separate Docker commands to build and run the application and database containers.
+   - Use Docker commands to build and run the application and database containers.
 
 2. **Access the Application**:
    - After the containers are running, open your browser and go to `http://localhost:5000` to view the vehicle listings.
@@ -47,10 +47,6 @@ This project demonstrates how to containerize a simple Flask web application tha
 
 If the project is set up correctly, visiting `localhost:5000` will display a simple webpage with a list of cars retrieved from the PostgreSQL database. The app will automatically query the `cars` table and show the vehicle information.
 
-### Requirements
-
-- Docker
-- Docker Compose (optional, but recommended for ease of setup)
 
 ### Notes
 
